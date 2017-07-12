@@ -1,8 +1,14 @@
 PODS:
   - Keys (1.0.0)
+  - Realm (2.8.3):
+    - Realm/Headers (= 2.8.3)
+  - Realm/Headers (2.8.3)
+  - RealmSwift (2.8.3):
+    - Realm (= 2.8.3)
 
 DEPENDENCIES:
   - Keys (from `Pods/CocoaPodsKeys`)
+  - RealmSwift
 
 EXTERNAL SOURCES:
   Keys:
@@ -10,7 +16,9 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Keys: 9c35bf00f612ee1d48556f4a4b9b4551e224e90f
+  Realm: 3601ef091c8c499a31101d8563b991e75546cdce
+  RealmSwift: 8183818515471b01a99abdd2970f8e4fd52b6f4a
 
-PODFILE CHECKSUM: 3363e7838e1405966332c93e18d1410baa500ce6
+PODFILE CHECKSUM: d8960349d62d5fe0b7dd9927d319dc3ee1e34080
 
 COCOAPODS: 1.2.1
